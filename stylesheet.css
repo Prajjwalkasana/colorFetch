@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(180, 130, 68);
+}
+.bdy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.head{
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    font-size: 1.5cm;
+}
+#btn{
+    margin: 20px;
+    width: 3cm;
+    align-self: center;
+    height: 1.5cm;
+    background-color: antiquewhite;
+    border: 2px solid saddlebrown;
+    border-radius: 0.5cm;
+}
+#btn:hover{
+    background-color: saddlebrown;
+    color: white;
+}
+#color{
+    height: 6.5vh;
+    border: 3px solid saddlebrown;
+    border-radius: 15px;
+}
